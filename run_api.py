@@ -27,9 +27,9 @@ spec.loader.exec_module(config)
 def load_mysql_connector():
     try:
         mydb = mysql.connector.connect(
-            host="localhost",
+            host="18.224.229.26",
             database='graphy',
-            user="root",
+            user="graphy",
             passwd="12345"
         )
     except Error as e:
