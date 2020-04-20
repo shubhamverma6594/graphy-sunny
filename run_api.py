@@ -22,7 +22,7 @@ json_handler.setFormatter(formatter)
 spec = importlib.util.spec_from_file_location("module.name", "./config/local.py")
 config = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(config)
-
+print("Starting graphy")
 def load_mysql_connector():
     try:
         mydb = mysql.connector.connect(
