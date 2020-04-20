@@ -13,7 +13,6 @@ class Producer:
         body=json.dumps(message)
 
         if (not self.connection) or (not self.connection.is_open):
-            logging.info("connection not exist")
             self.connection = self._create_connection()
             self.channel = self.connection.channel()
  
