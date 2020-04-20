@@ -1,8 +1,8 @@
 mq_config = {
-    'host': "localhost",
+    'host': "llama-01.rmq.cloudamqp.com",
     'port': "5672",
-    'userName': "guest",
-    'password': "guest",
+    'userName': "hcizhelk",
+    'password': "odYzThGJnlFhHXl7NQ1wOA2G_3KQjXzg",
     'virtualHost': "/"
 }
 
