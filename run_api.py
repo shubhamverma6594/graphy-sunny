@@ -17,7 +17,7 @@ app.debug = True
 app.config['DATABASE_NAME'] = 'library.db'
 
 formatter = json_log_formatter.JSONFormatter()
-json_handler = logging.FileHandler(filename='/var/log/ot-python-api.json')
+json_handler = logging.FileHandler(filename='.ot-python-api.json')
 json_handler.setFormatter(formatter)
 
 spec = importlib.util.spec_from_file_location("module.name", "./config/local.py")
