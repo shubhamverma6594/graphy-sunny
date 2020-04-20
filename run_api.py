@@ -48,5 +48,5 @@ load_mysql_connector()
 start_rabbit()
 
 if __name__ == '__main__':
-    host = os.environ.get('IP', '127.0.0.1')
+    host = os.environ.get('IP', '0.0.0.0')
     app.run(host=host, debug=False)
