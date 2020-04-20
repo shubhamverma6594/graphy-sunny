@@ -13,7 +13,7 @@ import importlib.util
 app = Flask(__name__)
 app.register_blueprint(routes)
 
-app.debug = True
+app.debug = False
 app.config['DATABASE_NAME'] = 'library.db'
 
 formatter = json_log_formatter.JSONFormatter()
