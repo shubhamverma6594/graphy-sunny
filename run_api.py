@@ -48,4 +48,4 @@ start_rabbit()
 
 if __name__ == '__main__':
     print("Starting flask")
-    app.run()
+    app.run(use_reloader=False)
