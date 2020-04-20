@@ -3,7 +3,7 @@ mq_config = {
     'port': "5672",
     'userName': "hcizhelk",
     'password': "odYzThGJnlFhHXl7NQ1wOA2G_3KQjXzg",
-    'virtualHost': "/"
+    'virtualHost': "hcizhelk"
 }
 
 image_process_request_config = {
