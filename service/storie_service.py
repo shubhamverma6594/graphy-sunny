@@ -40,7 +40,7 @@ def get_all_stories(user_id, is_by_user_id):
 			story_data["lat"] = row[7]
 			story_data["long"] = row[8]
 			if row[10]:
-				story_data["data"] = b64encode(row[10]).decode('UTF-8')
+				story_data["data"] = 'data:image/png;base64,' + b64encode(row[10]).decode('UTF-8')
 			response.append(story_data)
 		
 		return json.dumps(response)
